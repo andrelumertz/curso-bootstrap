@@ -1,0 +1,59 @@
+
+html {
+  box-sizing: border-box;
+}
+
+.header {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),
+     url('https://images.unsplash.com/photo-1444208393177-b2a88904ed8d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1500&h=1000&fit=crop');
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  color: #ffffff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.navbar {
+    background-color: orange;
+}
+
+#servicos {
+   background-color:rgb(63, 202, 63);
+   padding: 10px;
+}
+#servicos img {
+    border: 2px solid orange;
+    height: 200px;
+    width: 200px;
+    border-radius:50%;
+}
+
+#quemsomos {
+     background-color: rgb(199, 183, 41);
+     padding: 10px;
+}
+
+ #parceiros {
+    padding: 20px;
+    background-color:rgb(55, 55, 223)
+}
+
+#parceiros img:hover {
+ border: 2px solid rgb(199, 183, 41);;
+}
+
+#rodape {
+    padding: 10px;
+    background-color: rgb(199, 183, 41);;
+
+}
